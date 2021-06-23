@@ -1,0 +1,91 @@
+.row {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+    padding: 50px;
+}
+.suvs {
+    background: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    padding: 50px;
+}
+ h2, p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: #fff;   
+    font-size: 15px;
+}
+h2 {
+    font-size: 35px;
+}
+.sedans-bt {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(31, 77%, 52%);
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+} 
+.sedans-bt:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+    border: 2px solid #fff;
+}
+.suvs-bt {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(184, 100%, 22%);
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+} 
+
+.suvs-bt:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.luxury-bt {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(179, 100%, 13%);
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+} 
+.luxury-bt:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+    border: 2px solid #fff;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1440px) {
+.row {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        }
+}
